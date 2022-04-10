@@ -1,0 +1,44 @@
+﻿div.ball {
+    border: 0;
+    margin: 0;
+    background-color: white;
+}
+
+div.ball-selected {
+    background-color: yellow;
+}
+
+div.ball {
+    width: 20px;
+    height: 20px;
+}
+
+    div.ball img {
+        width: 20px;
+        height: 20px;
+    }
+
+@media (min-width: 500px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 999.98px) {
+    div.ball {
+        width: 40px;
+        height: 40px;
+    }
+
+        div.ball img {
+            width: 40px;
+            height: 40px;
+        }
+}
+
+
+@media (min-width: 1200px) and (min-height: 1000px) {
+    div.ball {
+        width: 60px;
+        height: 60px;
+    }
+
+        div.ball img {
+            width: 60px;
+            height: 60px;
+        }
+}
